@@ -288,4 +288,4 @@ def chatv1_1():
         return {"error": "Invalid JSON body"}, 404
 
 if __name__ == '__main__':
-    app.run(debug=True, port=50600)
+    app.run(debug=True, port=7860)
